@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post Title</title>
+    <style>
+        .blog-section {
+            min-height: 100vh;
+            padding: 60px 0;
+            background-color: #ffffff;
+        }
+
+        .blog-container {
+            max-width: 1140px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        .blog-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .blog-title {
+            font-size: 3rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+            color: #333333;
+        }
+
+        .blog-meta {
+            font-size: 1.125rem;
+            color: #666666;
+            margin-bottom: 30px;
+        }
+
+        .blog-content {
+            font-size: 1.125rem;
+            line-height: 1.8;
+            color: #444444;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .blog-content p {
+            margin-bottom: 24px;
+        }
+
+        .blog-content ul {
+            margin: 24px 0;
+            padding-left: 24px;
+        }
+
+        .blog-content li {
+            margin-bottom: 12px;
+        }
+
+        .pro-tip {
+            background-color: #f8f9fa;
+            border-left: 4px solid #4682B4;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 4px;
+        }
+
+        .blog-navigation {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 60px;
+            padding-top: 30px;
+            border-top: 1px solid #eee;
+        }
+
+        .blog-nav-link {
+            color: #4682B4;
+            text-decoration: none;
+            font-weight: 700;
+            transition: color 0.3s;
+        }
+
+        .blog-nav-link:hover {
+            color: #2c5282;
+        }
+
+        @media (max-width: 991px) {
+            .blog-title {
+                font-size: 2.25rem;
+            }
+            
+            .blog-content {
+                padding: 0 20px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .blog-section {
+                padding: 40px 0;
+            }
+
+            .blog-title {
+                font-size: 1.875rem;
+            }
+
+            .blog-meta {
+                font-size: 1rem;
+            }
+
+            .blog-content {
+                font-size: 1rem;
+            }
+        }
+
+        @media (max-width: 575px) {
+            .blog-section {
+                padding: 30px 0;
+            }
+
+            .blog-title {
+                font-size: 1.5rem;
+            }
+
+            .blog-navigation {
+                flex-direction: column;
+                gap: 20px;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="blog-section">
+        <div class="blog-container">
+            <header class="blog-header">
+                <h1 class="blog-title">Common Mistakes in DIY Repairs</h1>
+                <div class="blog-meta">
+                    Published on February 15, 2025 • 5 min read
+                </div>
+            </header>
+
+            <article class="blog-content">
+                <p class="lead">Repairing your own devices can save money, but common mistakes can make things worse. Here's what you need to know before starting your DIY repair journey.</p>
+                
+                <ul class="mistakes-list">
+                    <li><strong>Using incorrect tools:</strong> Each device requires specific tools. Using the wrong ones can permanently damage sensitive components.</li>
+                    <li><strong>Improper disassembly:</strong> Devices have specific disassembly sequences. Forcing parts apart can break clips and connectors.</li>
+                    <li><strong>Static electricity:</strong> Not discharging static before handling circuits can fry sensitive electronics.</li>
+                    <li><strong>Software oversights:</strong> Skipping firmware or driver updates can lead to compatibility issues after hardware repairs.</li>
+                </ul>
+
+                <div class="pro-tip">
+                    <p>💡 <strong>Pro Tip:</strong> Before starting any repair, gather all necessary tools, research the specific repair process for your device model, and create a clean, well-lit workspace.</p>
+                </div>
+
+                <p>Remember that some repairs are best left to professionals, especially when dealing with high-voltage components or warranty-sealed devices. If you're unsure about any step in the repair process, consult an expert.</p>
+            </article>
+
+            <nav class="blog-navigation">
+                <a href="blog2.html" class="blog-nav-link">← Previous Post</a>
+                <a href="index.html" class="blog-nav-link">Back to Blogs</a>
+                <a href="blog1.html" class="blog-nav-link">Next Post →</a>
+            </nav>
+        </div>
+    </section>
+</body>
+</html>
